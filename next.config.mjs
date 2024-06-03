@@ -7,11 +7,5 @@ const nextConfig = {
         ]
     }
 };
-module.exports = {
-    eslint: {
-        ignoreDuringBuilds: true, // Allows production builds to complete even with ESLint errors
-    },
-};
-
 
 export default nextConfig;
