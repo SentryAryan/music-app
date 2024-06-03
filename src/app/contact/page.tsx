@@ -16,12 +16,12 @@ export default function Page() {
   };
 
   return (
-    <div className="min-h-screen w-full rounded-md bg-gray-900 relative flex flex-col items-center 
+    <div className="h-[40rem] lg:min-h-screen w-full rounded-md bg-gray-900 relative flex flex-col items-center 
     justify-center antialiased py-12 pt-36">
 
       <BackgroundBeams className="absolute left-0 top-0 w-full h-full z-0" />
 
-      <div className="w-[43rem] max-w-3xl mx-auto p-4 relative z-10">
+      <div className="w-[20rem] sm:w-[25rem] lg:w-[43rem] max-w-3xl mx-auto p-4 relative z-10">
         <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent 
         bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold
         mb-8">
