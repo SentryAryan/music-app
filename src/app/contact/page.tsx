@@ -16,7 +16,7 @@ export default function Page() {
   };
 
   return (
-    <div className="h-[40rem] lg:min-h-screen w-full rounded-md bg-gray-900 relative flex flex-col items-center 
+    <div className="min-h-screen w-full rounded-md bg-gray-900 relative flex flex-col items-center 
     justify-center antialiased py-12 pt-36">
 
       <BackgroundBeams className="absolute left-0 top-0 w-full h-full z-0" />
