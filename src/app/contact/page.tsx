@@ -1,17 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { Textarea } from "@/components/ui/textarea";
 
-export default function page() {
+export default function Page() {
 
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
