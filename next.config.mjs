@@ -5,7 +5,9 @@ const nextConfig = {
             'images.unsplash.com',
             'res.cloudinary.com'
         ]
-    }
+    },
+    output: "export",
+    reactStrictMode: true,
 };
 
 export default nextConfig;
