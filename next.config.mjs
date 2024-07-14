@@ -6,8 +6,8 @@ const nextConfig = {
             'res.cloudinary.com'
         ]
     },
-    output: "export",
-    reactStrictMode: true,
+    // output: "export",
+    // reactStrictMode: true,
 };
 
 export default nextConfig;
